@@ -1,138 +1,138 @@
 {
   "metadata": {
-    "email": "<!--email_off-->23ds3000079@ds.study.iitm.ac.in<!--/email_off-->",
+    "email": "23ds3000079@ds.study.iitm.ac.in",
     "version": "350d802d",
     "lastUpdated": "2024-02-20T10:30:00Z",
-    "source": "StaticShop Product Catalog"
+    "totalProducts": 16
   },
   "products": [
     {
-      "id": 1,
-      "name": "Classic T-Shirt",
-      "category": "clothing",
-      "price": 199.99,
+      "id": "prod-350d802d-001",
+      "name": "Premium Item 1",
+      "category": "electronics",
+      "price": 134,
+      "stock": 10,
+      "rating": 3.3
+    },
+    {
+      "id": "prod-350d802d-002",
+      "name": "Premium Item 2",
+      "category": "books",
+      "price": 368.36,
+      "stock": 115,
+      "rating": 1.6
+    },
+    {
+      "id": "prod-350d802d-003",
+      "name": "Standard Item 3",
+      "category": "home",
+      "price": 314.33,
+      "stock": 147,
+      "rating": 3.2
+    },
+    {
+      "id": "prod-350d802d-004",
+      "name": "Basic Item 4",
+      "category": "electronics",
+      "price": 199.9,
       "stock": 45,
-      "rating": 4.5
+      "rating": 1
     },
     {
-      "id": 2,
-      "name": "Slim Fit Jeans",
+      "id": "prod-350d802d-005",
+      "name": "Standard Item 5",
       "category": "clothing",
-      "price": 799.99,
-      "stock": 30,
-      "rating": 4.7
-    },
-    {
-      "id": 3,
-      "name": "Leather Jacket",
-      "category": "clothing",
-      "price": 2499.99,
-      "stock": 15,
-      "rating": 4.8
-    },
-    {
-      "id": 4,
-      "name": "Running Shoes",
-      "category": "clothing",
-      "price": 1299.99,
-      "stock": 25,
-      "rating": 4.6
-    },
-    {
-      "id": 5,
-      "name": "Wool Sweater",
-      "category": "clothing",
-      "price": 899.99,
-      "stock": 20,
-      "rating": 4.4
-    },
-    {
-      "id": 6,
-      "name": "Summer Dress",
-      "category": "clothing",
-      "price": 599.99,
-      "stock": 35,
+      "price": 30.09,
+      "stock": 166,
       "rating": 4.3
     },
     {
-      "id": 7,
-      "name": "Smartphone X",
-      "category": "electronics",
-      "price": 14999.99,
-      "stock": 12,
-      "rating": 4.9
+      "id": "prod-350d802d-006",
+      "name": "Basic Item 6",
+      "category": "clothing",
+      "price": 20.09,
+      "stock": 112,
+      "rating": 3.1
     },
     {
-      "id": 8,
-      "name": "Laptop Pro",
-      "category": "electronics",
-      "price": 54999.99,
-      "stock": 8,
-      "rating": 4.8
-    },
-    {
-      "id": 9,
-      "name": "Wireless Earbuds",
-      "category": "electronics",
-      "price": 2999.99,
-      "stock": 50,
-      "rating": 4.4
-    },
-    {
-      "id": 10,
-      "name": "Smart Watch",
-      "category": "electronics",
-      "price": 7999.99,
-      "stock": 18,
+      "id": "prod-350d802d-007",
+      "name": "Standard Item 7",
+      "category": "clothing",
+      "price": 82.28,
+      "stock": 137,
       "rating": 4.5
     },
     {
-      "id": 11,
-      "name": "Gaming Mouse",
-      "category": "electronics",
-      "price": 1499.99,
-      "stock": 42,
-      "rating": 4.6
+      "id": "prod-350d802d-008",
+      "name": "Elite Item 8",
+      "category": "clothing",
+      "price": 386.33,
+      "stock": 148,
+      "rating": 3.1
     },
     {
-      "id": 12,
-      "name": "Hardcover Novel",
-      "category": "books",
-      "price": 399.99,
-      "stock": 60,
-      "rating": 4.2
+      "id": "prod-350d802d-009",
+      "name": "Elite Item 9",
+      "category": "clothing",
+      "price": 350.18,
+      "stock": 34,
+      "rating": 3.7
     },
     {
-      "id": 13,
-      "name": "Cookbook",
-      "category": "books",
-      "price": 599.99,
-      "stock": 28,
+      "id": "prod-350d802d-010",
+      "name": "Premium Item 10",
+      "category": "home",
+      "price": 74.69,
+      "stock": 124,
+      "rating": 1.8
+    },
+    {
+      "id": "prod-350d802d-011",
+      "name": "Elite Item 11",
+      "category": "home",
+      "price": 267.06,
+      "stock": 94,
+      "rating": 1.5
+    },
+    {
+      "id": "prod-350d802d-012",
+      "name": "Standard Item 12",
+      "category": "home",
+      "price": 250.12,
+      "stock": 150,
+      "rating": 1.5
+    },
+    {
+      "id": "prod-350d802d-013",
+      "name": "Pro Item 13",
+      "category": "sports",
+      "price": 111.26,
+      "stock": 115,
       "rating": 4.5
     },
     {
-      "id": 14,
-      "name": "Self Help Book",
-      "category": "books",
-      "price": 349.99,
-      "stock": 55,
-      "rating": 4.1
+      "id": "prod-350d802d-014",
+      "name": "Standard Item 14",
+      "category": "clothing",
+      "price": 255.31,
+      "stock": 111,
+      "rating": 1.4
     },
     {
-      "id": 15,
-      "name": "Science Textbook",
-      "category": "books",
-      "price": 1299.99,
-      "stock": 22,
-      "rating": 4.7
+      "id": "prod-350d802d-015",
+      "name": "Pro Item 15",
+      "category": "home",
+      "price": 99.3,
+      "stock": 181,
+      "rating": 4.5
     },
     {
-      "id": 16,
-      "name": "Children's Book",
-      "category": "books",
-      "price": 249.99,
-      "stock": 75,
-      "rating": 4.3
+      "id": "prod-350d802d-016",
+      "name": "Elite Item 16",
+      "category": "home",
+      "price": 400.94,
+      "stock": 137,
+      "rating": 3.7
     }
   ],
   "aggregations": {
@@ -140,30 +140,44 @@
       "clothing": {
         "count": 6,
         "inventoryValue": 115939.75,
-        "averagePrice": 883.32,
-        "totalStock": 170,
-        "averageRating": 4.55
+        "averagePrice": 187.38,
+        "totalStock": 708,
+        "averageRating": 3.35
       },
       "electronics": {
-        "count": 5,
-        "inventoryValue": 855989.35,
-        "averagePrice": 16399.99,
-        "totalStock": 130,
-        "averageRating": 4.64
+        "count": 2,
+        "inventoryValue": 10293.5,
+        "averagePrice": 166.95,
+        "totalStock": 55,
+        "averageRating": 2.15
       },
       "books": {
-        "count": 5,
-        "inventoryValue": 102649.45,
-        "averagePrice": 579.99,
-        "totalStock": 240,
-        "averageRating": 4.36
+        "count": 1,
+        "inventoryValue": 42361.4,
+        "averagePrice": 368.36,
+        "totalStock": 115,
+        "averageRating": 1.6
+      },
+      "home": {
+        "count": 6,
+        "inventoryValue": 171042.44,
+        "averagePrice": 234.41,
+        "totalStock": 833,
+        "averageRating": 2.7
+      },
+      "sports": {
+        "count": 1,
+        "inventoryValue": 12794.9,
+        "averagePrice": 111.26,
+        "totalStock": 115,
+        "averageRating": 4.5
       }
     },
     "overall": {
       "totalProducts": 16,
-      "totalInventoryValue": 1074578.55,
-      "averagePrice": 2012.49,
-      "averageRating": 4.52
+      "totalInventoryValue": 352432.99,
+      "averagePrice": 218.99,
+      "averageRating": 2.93
     }
   }
 }
