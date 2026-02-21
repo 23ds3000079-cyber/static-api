@@ -1,4 +1,4 @@
-name: Cache Workflow
+name: Cache Workflows
 
 on:
   push:
