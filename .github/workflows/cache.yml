@@ -1,27 +1,38 @@
-name: Cache Workflows
+name: Cache Demo
 
 on:
   push:
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
-  cache-job:
+  cache-test:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - uses: actions/checkout@v4
-
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
       - name: Cache dependencies
-        id: cache-step
+        id: cache
         uses: actions/cache@v4
         with:
-          path: ~/.cache/demo
-          key: cache-825858f
-
+          path: ~/.npm
+          key: cache-825858f-${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            cache-825858f-${{ runner.os }}-
+            cache-825858f-
+      
       - name: prime-cache-825858f
         run: |
-          if [ "${{ steps.cache-step.outputs.cache-hit }}" = "true" ]; then
-            echo "Cache hit"
+          if [ "${{ steps.cache.outputs.cache-hit }}" == "true" ]; then
+            echo "✅ Cache hit! Using cached dependencies"
           else
-            echo "Cache miss"
+            echo "❌ Cache miss! Will create new cache"
+            # Simulate installing dependencies to create cache
+            mkdir -p ~/.npm
+            echo "Sample dependency" > ~/.npm/test-file.txt
           fi
+      
+      - name: Display cache status
+        run: echo "Cache key used - cache-825858f"
